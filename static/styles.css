@@ -1,0 +1,98 @@
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 125px;
+    background-color: #68A7AD;
+}
+
+/* Sections */
+.dark-colour-section {
+    background-color: #68A7AD;
+    color: white;
+}
+
+.light-colour-section {
+    background-color: #99C4C8;
+    color: white;
+}
+
+.white-section{
+    background-color: white;
+}
+
+/* Spacer */
+.spacer{
+    padding-bottom: 189px;
+    margin-top: -189px;
+    display: block;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 0px 90px;
+}
+
+.content-container {
+    padding: 60px 90px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #68A7AD;
+}
+
+.navbar-brand {
+    font-size: 53px;
+}
+
+/* Columns */
+.columns {
+    padding: 0px 30px;
+}
+
+/* Images */
+.title-photo {
+    width: 370px;
+}
+
+/* Links */
+.dark-colour-link {
+    color: #68A7AD;
+}
+
+.white-link {
+    color: white;
+}
+
+a:hover {
+    color: #99C4C8;
+}
+
+/* Submit Button */
+#submit {
+    color: white;
+}
+
+#github-link {
+    font-size: 200%;
+}
+
+/* Dotted border */
+hr.dotted-line {
+  border-top: 3px dotted white;
+}
+
+/* Media query */
+@media (max-width: 1000px) {
+    .title-photo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1300px) {
+    .title-photo {
+        width: 260px;
+    }
+}

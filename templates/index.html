@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Sophie Whittle</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--    Font Awesome-->
+    <script src="https://kit.fontawesome.com/4446a39212.js" crossorigin="anonymous"></script>
+
+    <!--    Custom styling-->
+    <link rel="stylesheet" href="static/styles.css">
+
+</head>
+
+<body>
+
+
+<!--Navbar and Intro-->
+<section class="dark-colour-section">
+    <div class="container-fluid">
+    <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sophie Whittle</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <span class="ml-auto">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+<!--                    <li>-->
+<!--                        <a class="nav-link" href="#">Resume</a>-->
+<!--                    </li>-->
+                    <li>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                </span>
+            </div>
+        </nav>
+
+        </div>
+    </div>
+
+
+      <!--Intro-->
+    <div class="container-fluid content-container">
+        <div class="row">
+            <div class="col-lg-4 columns">
+                    <img class="title-photo rounded-circle " src="static/Lily.png">
+<!--                    img-responsive center-block d-block mx-auto-->
+            </div>
+            <div class="col-lg-8 columns">
+                <p><br/></p>
+                <p>
+                Self-taught developer who has progressed from studying online courses part-time to developing my own real-world projects. Highly motivated self-starter with a proven track record of excellence, I made the switch from a successful 9-year career in finance to software development as I thrive on new challenges and learning new things.
+<!--                and have a passion for-->
+<!--                    I am seeking to launch a career in-->
+                </p>
+                <p><br/></p>
+                <p>
+                    Python &nbsp;·&nbsp; SQL &nbsp;·&nbsp; Flask &nbsp;·&nbsp; Bootstrap &nbsp;·&nbsp; CSS &nbsp;·&nbsp; HTML &nbsp;·&nbsp; Git/Github
+                </p>
+
+                <p><a id="github-link" class="white-link" href="https://github.com/sw1107"><i class="fa-brands fa-github"></i></a></p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!--Projects-->
+<section class="white-section anchor" id="projects__">
+
+    <div class="container-fluid content-container">
+        <div class="row">
+        <div class="col-lg-4 columns">
+            <span class="spacer" id="projects"></span>
+            <h1>Projects
+            </h1>
+            <br>
+        </div>
+        <div class="col-lg-8 columns">
+
+            <h4>Tic-Tac-Toe with AI</h4>
+            <a class="dark-colour-link" href="https://github.com/sw1107/tic-tac-toe-with-AI"><i>github.com/sw1107/tic-tac-toe-with-AI</i></a>
+            <p>
+                <ul>
+                    <li>
+                        Playable Python game with tkinter GUI where the computer’s moves are decided using the minimax algorithm
+                    </li>
+                </ul>
+            </p>
+
+            <h4>To-Do List Website</h4>
+            <a class="dark-colour-link" href="https://github.com/sw1107/to-do-list"><i>github.com/sw1107/to-do-list</i></a>
+            <br>
+            <a class="dark-colour-link" href="https://to-do-list-sw.herokuapp.com"><i>to-do-list-sw.herokuapp.com</i></a>
+            <p>
+                <ul>
+                    <li>
+                        Web-based Python application built with Flask and Bootstrap / CSS / HTML, deployed to Heroku
+                    </li>
+                    <li>
+                        Authentication allows users to store multiple lists with tasks, with certain pages visible only to admin
+                    </li>
+                    <li>
+                        Data is managed in an SQL database using SQLAlchemy with the ability to search, add, edit, and delete
+                    </li>
+
+                </ul>
+            </p>
+
+            <h4>Montreal Parks API</h4>
+            <a class="dark-colour-link" href="https://github.com/sw1107/montreal-parks-API"><i>github.com/sw1107/montreal-parks-API</i></a>
+            <p>
+                <ul>
+                    <li>
+                        API for accessing and contributing to data about Montreal parks, built with Python and Flask-RESTful
+                    </li>
+                    <li>
+                        Data is managed in an SQL database using SQLAlchemy with the ability to search, add, edit, and delete
+                    </li>
+                </ul>
+            </p>
+
+            <h4>Space Invaders</h4>
+            <a class="dark-colour-link" href="https://github.com/sw1107/space-invaders"><i>github.com/sw1107/space-invaders</i></a>
+            <p>
+                <ul>
+                    <li>
+                        Re-creation of the classic arcade game using the Python turtle library and OOP concepts
+                    </li>
+                    <li>
+                        Users can control a player using keyboard commands throughout increasing levels of difficulty
+                    </li>
+                </ul>
+            </p>
+
+        </div>
+        </div>
+    </div>
+</section>
+
+<!--Education-->
+<!--Professional Designations-->
+<section class="light-colour-section" id="education__">
+    <div class="container-fluid content-container">
+        <div class="row">
+        <div class="col-lg-4 columns">
+            <h1>
+                <span class="spacer" id="education"></span>
+                Education
+                <br>&
+                <br>Professional Designations
+                <br>
+            </h1>
+        </div>
+        <div class="col-lg-8 columns">
+
+            <h4>100 Days of Code</h4>
+            <i>Udemy, 2021</i>
+            <p>
+                <ul>
+                    <li>
+                        Python, tkinter, APIs, web scraping, SQL, HTML, CSS, Flask, Bootstrap
+                    </li>
+                </ul>
+            </p>
+
+            <h4>CS50</h4>
+            <i>HarvardX, 2021</i>
+            <p>
+
+                <ul>
+                    <li>
+                        C, algorithms, memory, pointers, data structures, Python, SQL, HTML, CSS, Flask
+                    </li>
+                </ul>
+            </p>
+
+            <h4>Master of Mathematics (MMath)</h4>
+            <i>University of Sussex, 2008 - 2012</i>
+            <p>
+                <ul>
+                    <li>
+                        First Class with Honours
+                    </li>
+                    <li>
+                        Awarded the Mathematics Department MMath Prize for outstanding performance in the MMath degree
+                    </li>
+                </ul>
+            </p>
+            <br>
+            <hr class="dotted-line">
+            <br>
+            <h4>Financial Risk Manager (FRM)</h4>
+            <i>2022</i>
+            <br><br>
+            <h4>Chartered Professional Accountant (CPA)</h4>
+            <i>2019</i>
+            <br><br>
+            <h4>Association of Chartered Certified Accountants (ACCA)</h4>
+            <i>2015</i>
+
+        </div>
+        </div>
+    </div>
+</section>
+
+<!--Experience-->
+<section class="white-section" id="experience__">
+    <div class="container-fluid content-container">
+        <div class="row">
+        <div class="col-lg-4 columns">
+            <h1>
+                <span class="spacer" id="experience"></span>
+                Experience
+            </h1>
+            <br>
+        </div>
+        <div class="col-lg-8 columns">
+
+            <h4>P&L Team Lead</h4>
+            <i>Bank of Montreal, 2018 - 2022</i>
+            <p>
+                <ul>
+                    <li>
+                        Reviewed daily P&L reports for multiple structured equity product desks to ensure accurate reporting under time sensitive deadlines
+                    </li>
+                    <li>
+                        Worked with large data sets and provided ad hoc analysis to better understand positions and trends
+                    </li>
+                    <li>
+                        Engaged with trading desk on complex, non-routine issues to ensure that P&L was captured accurately
+                    </li>
+                </ul>
+            </p>
+
+            <h4>Senior Financial Analyst</h4>
+            <i>CIBC, 2017 - 2018</i>
+            <p>
+                <ul>
+                    <li>
+                        Managed the month-end accounting and reporting processes with required accounting entries and reconciliations, particularly focusing on the Global Collateralised Finance desk
+                    </li>
+                    <li>
+                        Performed P&L and balance sheet reconciliations to ensure figures are properly tied back to the systems of records
+                    </li>
+                    <li>
+                        Prepared and reviewed standard and non-standard accounting entries and supporting schedules according to accounting/control procedures and hedge effectiveness guidelines
+                    </li>
+                </ul>
+            </p>
+
+            <h4>Commodity Controller</h4>
+            <i>EDF Trading, 2015 - 2017</i>
+            <p>
+                <ul>
+                    <li>
+                        Responsible for ensuring that the trading P&L was accounted for accurately on a monthly basis across multiple commodities by performing a reconciliation of data from the trading system to the accounting system to ensure mark-to-market accounting for all derivative financial instruments is correct and data is complete
+                    </li>
+                    <li>
+                        Optimised the efficiency of month-end processes to yield material operational savings, by proactively identifying opportunities for improvement and delivering these solutions using VBA macros and more streamlined processes
+                    </li>
+                    <li>
+                        Partnered with IT to vastly improve a bespoke system (used in calculating a quarterly P&L adjustment on behalf of EDF Group), saving one day of work on this procedure which is delivered under very tight timescales
+                    </li>
+                </ul>
+            </p>
+
+            <h4>Finance Graduate Program</h4>
+            <i>UK Power Networks, 2012 - 2015</i>
+            <p>
+                <ul>
+                    <li>
+                        Led a business improvement project, including presentation to senior management and subsequent implementation, which resulted in a more robust system for cost calculation
+                    </li>
+                    <li>
+                        Collected and analysed financial information as required by operational managers and provided support to operational staff to improve efficiency
+                    </li>
+                    <li>
+                        Extracted and manipulated data for the annual submission to the regulator, with completion to time and quality
+                    </li>
+                </ul>
+            </p>
+
+        </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Contact-->
+<!--Flask messages-->
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        {% for message in messages %}
+          <div class="alert alert-info alert-dismissible" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          {{ message }}
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+<section class="dark-colour-section" id="contact__">
+     <div class="container-fluid content-container">
+        <div class="row">
+        <div class="col-lg-4 columns">
+            <h1>
+                <span class="spacer" id="contact"></span>
+                Contact
+            </h1>
+            <br>
+        </div>
+        <div class="col-lg-8 columns">
+<!--            {% import "bootstrap/wtf.html" as wtf %}-->
+<!--            {{ wtf.quick_form(contact_form) }}-->
+            <p><i class="fa-solid fa-earth-americas"></i> Montréal, QC</p>
+            <p><i class="fa-solid fa-phone"></i> (416) 827-6687</p>
+            <p><i class="fa-solid fa-envelope"></i> <a class="white-link" href="mailto:sophiewhittle89@gmail.com class">sophiewhittle89@gmail.com</a></p>
+
+            <!--        <p><i class="fa-solid fa-file"></i><a> Download resume</a></p>-->
+        </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
